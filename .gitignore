@@ -1,0 +1,28 @@
+# NOTE: this repo IS the published website — anything committed is served
+# publicly at https://foodgeeks.com/<path>. Keep local-only files out.
+
+# AI assistant / agent config and notes
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+GEMINI.md
+.claude/
+.gemini/
+.codex/
+.cursor/
+.cursorrules
+.aider*
+.github/copilot-instructions.md
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local scratch and tooling
+node_modules/
+tmp/
+scratch/
+*.log
